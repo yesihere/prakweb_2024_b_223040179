@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .is-invalid {
+        @apply border-red-300 placeholder:text-red-500;
+    }
+}
